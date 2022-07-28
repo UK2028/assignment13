@@ -85,7 +85,6 @@ int sumE(int n)
 #include<stdio.h>
 #include<conio.h>
 int square(int);
-int sum=0;
 int main()
 {
     int num,s;
@@ -97,6 +96,7 @@ int main()
 }
 int square(int n)
 {
+    int sum;
     if(n==0)
         return 0;
     sum=n*n+square(n-1);
